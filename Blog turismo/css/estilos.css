@@ -1,0 +1,191 @@
+
+.container{
+  width: 100%;
+}
+.header {
+z-index: -1;
+width: 100%;
+height: 135px;
+position: fixed;
+background: #0CB1F9;
+}
+body{
+  background: url(../img/fondo-body.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.columna-logo{
+  margin-top: 2.4%;
+
+}
+.logo{
+  width: 70%;
+  border-radius: 5%;
+  margin-right: 4%;
+}
+.menu{
+  margin-top: 3%;
+}
+.titulo{
+  font-size: 2.2em;
+  color: white;
+}
+.espacio{
+  margin-top: 15%;
+}
+.contenido-centro{
+  margin-bottom: 1%;
+}
+.tamanio-dos{
+  height: 250px !important;
+  margin-top: 1%;
+}
+.tamanio-tres{
+  height: 650px !important;
+}
+.tamanio-cinco{
+  margin-top: 1%;
+}
+.tamanio-seis{
+  margin-top: 1%;
+}
+.borde{
+  background: #ffffff;
+}
+.margen{
+  margin-left: 1%;
+}
+
+.publicacion{
+  margin-top: -1%;
+}
+.img-publicacion{
+  margin-right: 1%;
+  margin-top: 1%;
+}
+.titulo-publicacion{
+  margin-bottom: 1%;
+  margin-top: 0.3%;
+}
+.titulo-publicacion1{
+  padding-top: 0.1%;;
+}
+.chip{
+  border: none;
+  font-size: 0.8em;
+}
+.tamanio-icons{
+  font-size: 1.2em;
+  margin-top: 5%;
+  margin-right: 10px;
+}
+.autor-caja{
+padding: 20px;
+}
+.perfil-autor{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.img-autor{
+  width: 35%;
+  margin-top: 5%;
+}
+.linea-autor{
+  border-top: 1px solid black;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.text-align-center{
+  text-align: center;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.comentario1{
+  background: #0CB1F9;
+  padding-left: 1%;
+}
+ .margen-comentario{
+   margin-left: 2%;
+   color: #ffffff;
+ }
+ .align-boton{
+   margin-right: 5%;
+ }
+ .align-forms{
+   padding-right: 3%;
+ }
+ .color{
+   color: #ffffff;
+ }
+@media (max-width: 769px){
+  .logo{
+    margin-left: 10%;
+    margin-top: 13% !important;
+    min-width: 150% !important;
+    height: 100px !important;
+
+    margin-top: 7%;
+    border-radius: 12%;
+  }
+  .indigo{
+    margin-top: 9%;
+  }
+  .titulo{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 6%;
+    margin-bottom: -9%;
+    width: 100% !important;
+
+  }
+  .contenido-izquierda{
+    margin-left: 0.2%;
+  }
+  .tamanio-dos{
+    margin-top: 2%;
+  }
+  .tamanio-tres{
+    margin-top: 2%;
+  }
+  .tamanio-cuatro{
+    margin-top: 2%;
+  }
+  .tamanio-cinco{
+    margin-top: 2%;
+  }
+  .tamanio-seis{
+    margin-top: 2%;
+  }
+  .img-publicacion{
+    width: 100%;
+    margin-left: -1%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+  }
+  .titulo-publicacion{
+    margin-bottom: 4%;
+  }
+  .chip1{
+    margin-bottom: 0.1%;
+  }
+  .chip2{
+    margin-top: -1%;
+  }
+  .margen{
+    margin-left: 4%;
+  }
+  .tamanio-texto{
+    font-size: 1.1em;
+  }
+  .perfil-autor{
+    margin-top: 2%;
+  }
+  .borde2{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  }
